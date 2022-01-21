@@ -1,0 +1,15 @@
+{
+  "name": "dining_hall",
+  "version": "1.0.0",
+  "description": "checks burge dining hall international food",
+  "main": "webscraper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "EnderFlop",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "cheerio": "^1.0.0-rc.10"
+  }
+}
