@@ -1,8 +1,7 @@
 
 Module.register("MMM-DiningHallChecker", {
   defaults:{
-    category: "Fine Dining",
-    fetchInterval: 1000 * 60 * 60 //every hour
+    category: "Fine Dining"
   },
   content:[],
   
