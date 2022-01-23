@@ -9,7 +9,7 @@ const fetchFood = async () => {
  
    const foods = [];
  
-   const international = $("div.panel.panel-default.marketplace-station.marketplace-station-Burge-International > div.panel-body > div.menu-course > div.menu-item > div.h6.menu-item-title").each((_idx, el) => {
+   const international = $("div#Lunch > div.panel.panel-default.marketplace-station.marketplace-station-Burge-International > div.panel-body > div.menu-course > div.menu-item > div.h6.menu-item-title").each((_idx, el) => {
     const food = $(el).text()
     foods.push(food)
    })
